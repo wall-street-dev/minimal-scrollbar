@@ -1,6 +1,9 @@
 {
   "name": "@altack/minimal-scrollbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "url": "https://github.com/guzmanoj/minimal-scrollbar/tree/master/projects/minimal-scrollbar"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.13",
     "@angular/core": "^9.1.13"
