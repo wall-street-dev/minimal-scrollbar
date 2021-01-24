@@ -8,9 +8,9 @@ No extra configuration, no required markup and also minimal size (3.8 KB MINIFIE
 
 2. Add the `MinimalScrollbarModule` to your `app.module.ts` (or any other)  
 
-3. Use it like a `directive` on your scrollable container  
-`<div class="container">`  
-    `<div class="content" minimal-scrollbar>long content goes here</div>`  
+3. Use it like a `directive` on your -already- scrollable container  
+`<div class="container" minimal-scrollbar>`  
+    `<div class="content">long content goes here</div>`  
 `</div>` 
 
 ### How it works?
