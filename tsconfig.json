@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "minimal-scrollbar": [
+        "dist/minimal-scrollbar/minimal-scrollbar",
+        "dist/minimal-scrollbar"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

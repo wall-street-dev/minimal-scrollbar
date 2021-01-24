@@ -1,0 +1,44 @@
+:host {
+  --scrollbar-size: .5rem;
+  --scrollbar-minlength: 1.5rem;
+  --scrollbar-ff-width: thin;
+  --scrollbar-track-color: transparent;
+  --scrollbar-color: rgba(0,0,0,.2);
+  --scrollbar-color-hover: rgba(0,0,0,.35);
+  --scrollbar-color-active: rgba(0,0,0,.35);
+
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scrollbar-width: var(--scrollbar-ff-width);
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-track-color);
+
+  &.alt-minimal-scrollbar::-webkit-scrollbar {
+    height: var(--scrollbar-size);
+    width: var(--scrollbar-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-color-hover);
+  }
+
+  &::-webkit-scrollbar-thumb:active {
+    background-color: var(--scrollbar-color-active);
+  }
+
+  &::-webkit-scrollbar-thumb:vertical {
+    min-height: var(--scrollbar-minlength);
+  }
+
+  &::-webkit-scrollbar-thumb:horizontal {
+    min-width: var(--scrollbar-minlength);
+  }
+}
