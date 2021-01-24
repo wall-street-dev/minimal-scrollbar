@@ -1,6 +1,6 @@
 ## MinimalScrollbar
 An Angular directive to fix Windows's "mid-nineties" scrollbars.  
-No extra configuration, no required markup. 
+No extra configuration, no required markup and also minimal size (3.8 KB MINIFIED, 1.2 KB GZIPPED)
 
 ### How to use it?
 1. Install MinimalScrollbar  
@@ -14,6 +14,6 @@ No extra configuration, no required markup.
 `</div>` 
 
 ### How it works?
-This is just an Angular implementation of the workaround described by the guys of FilamentGroup
-https://www.filamentgroup.com/lab/scrollbars/
-
+The idea is to preserve the unobtrusive scrollbars of iOS, Android and MacOS and replace Windows scrollbars on Chrome, Firefox and Edge
+Credit goes to the guys at FilamentGroup. This is just an Angular implementation of its workaround.
+https://www.filamentgroup.com/lab/scrollbars/  
